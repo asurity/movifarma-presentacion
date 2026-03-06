@@ -1,0 +1,44 @@
+/**
+ * Sistema de grids y layouts
+ */
+
+.slide-container {
+    width: 90%;
+    max-width: 1400px;
+    height: 85vh;
+    position: relative;
+}
+
+.comparison-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-lg);
+    width: 100%;
+    max-width: 1000px;
+}
+
+.dashboard-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: var(--spacing-md);
+    width: 100%;
+}
+
+.comp-col {
+    padding: 30px;
+    border-radius: var(--radius-md);
+    border: 1px solid transparent;
+    transition: var(--transition-fast);
+}
+
+.comp-old {
+    border-color: #333;
+    background: rgba(255,255,255,0.02);
+    opacity: 0.7;
+}
+
+.comp-new {
+    border-color: var(--primary);
+    background: linear-gradient(180deg, rgba(0, 242, 255, 0.05) 0%, rgba(0,0,0,0) 100%);
+    box-shadow: 0 0 30px rgba(0, 242, 255, 0.1);
+}

@@ -1,0 +1,64 @@
+/**
+ * Sistema de tipografía
+ */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--text-main);
+}
+
+h1 {
+    font-size: 4.5rem;
+    font-weight: 800;
+    margin: 0;
+    line-height: 1.1;
+    background: linear-gradient(to right, #fff, var(--primary));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 30px rgba(0, 242, 255, 0.2);
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 2.8rem;
+    color: var(--primary);
+    margin-bottom: 30px;
+    font-weight: 600;
+    text-shadow: 0 0 15px rgba(0, 242, 255, 0.4);
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+p {
+    font-size: 1.3rem;
+    color: var(--text-muted);
+    max-width: 800px;
+    line-height: 1.6;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.highlight {
+    color: var(--text-main);
+    font-weight: 600;
+}
+
+/* Fuentes monoespaciadas para datos */
+.data-value {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--text-main);
+}
+
+.label {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--text-muted);
+    margin-bottom: 5px;
+}
